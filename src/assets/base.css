@@ -1,0 +1,23 @@
+/* color palette from <https://github.com/vuejs/theme> */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
